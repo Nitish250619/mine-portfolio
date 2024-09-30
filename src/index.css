@@ -1,0 +1,25 @@
+:root {
+  /* Background Colors */
+  --color-bg-dark-navy: #1B1F3B;
+  --color-bg-charcoal: #2E2E2E;
+
+  /* Text Colors */
+  --color-text-off-white: #F5F5F5;
+  --color-text-light-gray: #D3D3D3;
+
+  /* Accent Colors */
+  --color-accent-electric-blue: #434564;
+  --color-accent-lime-green: #32CD32;
+  --color-accent-neon-magenta: #FF00FF;
+}
+
+/* Example Usage */
+body {
+  background-color: var(--color-bg-dark-navy); /* Dark Navy Background */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
